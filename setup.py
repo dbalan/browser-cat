@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="browser-cat",
-    version="0.1",
+    version="0.1.0",
     scripts=['bcat'],
 
     # metadata to display on PyPI
