@@ -1,12 +1,9 @@
 from setuptools import setup
 
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setup(
     name="browser-cat",
-    version="0.1.0",
+    version="0.1.1",
     scripts=['bcat'],
 
     # metadata to display on PyPI
@@ -20,6 +17,13 @@ setup(
         "Bug Tracker": "http://github.com/dbalan/browser-cat/issues",
         "Documentation": "http://github.com/dbalan/browser-cat",
         "Source Code": "http://github.com/dbalan/browser-cat",
-    }
-    long_description=long_description,
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: BSD License",
+        "Operating System :: OS Independent",
+    ],
+    long_description="Send stdin to browser, useful when you are on a terminal, and want to render"
+    "html. This was written originally to pipe html email from text MUAs like"
+    "neomutt",
 )

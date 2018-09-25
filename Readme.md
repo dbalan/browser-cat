@@ -7,3 +7,10 @@ Send stdin to browser, useful when you are on a terminal, and want to render htm
 
 ## Contributing
 PRs welcome!
+
+## Install
+Get it from pypi
+
+```
+pip install browser-cat
+```
